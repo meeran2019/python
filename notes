@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------------------------------------
+                            100 DAYS OF PYTHON
+--------------------------------------------------------------------------------------------------------
+DAY 1:  (APR 30 2022)   Printing, Commenting, Debugging, String Manipulation and Variables.
+--------------------------------------------------------------------------------------------------------
+
+print Statement: 
+    print()     -   To print the statement.
+
+String Manipulation: 
+    print("a" + "b" + "c")
+    print(3*"a")
+    
+Input Function: 
+    input("A prompt for the user")
+    x=input("A prompt for the user")    
+
+Variables: 
+    Naming conventions - 2variables-name is not allowed.
+    
+
