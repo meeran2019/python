@@ -1,10 +1,10 @@
 --------------------------------------------------------------------------------------------------------
                             100 DAYS OF PYTHON
 --------------------------------------------------------------------------------------------------------
-DAY 1:  (APR 30 2022)   Printing, Commenting, Debugging, String Manipulation and Variables.
+DAY 1:  Printing, Commenting, Debugging, String Manipulation and Variables.
 --------------------------------------------------------------------------------------------------------
 
-print Statement: 
+Print Statement: 
     print()     -   To print the statement.
 
 String Manipulation: 
@@ -18,4 +18,29 @@ Input Function:
 Variables: 
     Naming conventions - 2variables-name is not allowed.
     
+--------------------------------------------------------------------------------------------------------
+DAY 2:  Printing, Commenting, Debugging, String Manipulation and Variables.
+--------------------------------------------------------------------------------------------------------
+
+Python Primitive Data Types: 
+
+    String: 
+        It is string of character. 
+        "" - within quotes consider as string. 
+
+    Integer: 
+        123456789  or 123_456_789  -> This is similar to ,. python interpret without underscore. 
+
+    Float: 
+        Having decimal point value. 
+
+    Boolean:
+        It can be True or False.
+
+    Type Error, Type Checking and Type Conversion: 
+        type(name)  -   It helps to check the object type.
+        
+        
+        
+
 
