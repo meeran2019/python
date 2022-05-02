@@ -39,8 +39,43 @@ Python Primitive Data Types:
 
     Type Error, Type Checking and Type Conversion: 
         type(name)  -   It helps to check the object type.
+
+
+Mathematical Operations in Python: 
+
+    ()      bracket 
+    **      exponential 
+    * /     same level, takes precedence from left to right. 
+    + -     same level, takes precedence from left to right. 
+
+
+Number Manipulation and F Strings: 
+
+    round(2.6666,2)     -> 2.67 
+    8 // 3              -> Floor division -> Returns integer 2.
+    8 / 3               -> Returns 2.66 
+
+    x=x+1 (or) x+=1
+
+    f String: 
         
+        It helps to convert each type to string. 
+
+        print(f"your score is {score} {height} {isWinning}")
+
+        message = f"your score is {score} {height} {isWinning}"
+        print(message)
         
+
+
+
+
+
+
+
+
+
+
         
 
 
