@@ -65,7 +65,40 @@ Number Manipulation and F Strings:
 
         message = f"your score is {score} {height} {isWinning}"
         print(message)
+
+
+-------------------------------------------------------------------------------------------------------
+DAY 3:  Conditional Statement, Logical Operator, Code Blocks and Scope: 
+--------------------------------------------------------------------------------------------------------
+
+Control flow with if/else and Conditional operators: 
+
+    if <condition>:
+        statements 
+    else: 
+        statements 
+    
+    >       greater than 
+    <       less than 
+    >=      greater than equal 
+    <=      less than equal 
+    ==      equal to 
+    !=      not equal to 
+    %       modulo - gives remainder. 
+
+
+Nested If and Elif statements: 
+
+    if condition:
+        print(statement)
+    elif condition: 
+        print(statements) 
+    else: 
+        print(statement)
+
         
+    
+
 
 
 
