@@ -96,7 +96,23 @@ Nested If and Elif statements:
     else: 
         print(statement)
 
+
+Multiple IF statements in Succession: 
+
+    if <condition>:
+        if <condition>:
+        elif <condition>:
+        else:
+
+    else: 
+
         
+Logical Operator: 
+
+    and     -   check both condition  
+    or      -   check or condition 
+    not     -   check for not condition.
+
     
 
 
