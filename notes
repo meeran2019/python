@@ -128,7 +128,36 @@ random.randrange(start,stop) - not include stop.
 
 Understanding the Offset and Appending Items to List: 
 
+    list_variable = [value1, "value2", [value3,value4]]
+
+    list_variable.append("value")   -   This append the value at the end of variable. 
+
+    list_variable[-1]               -   It prints last value.
+
+    list_variable[1] = new_value    -   To update the value. 
+
+    list_variable.extend(["value3",""value4])     -   To append multiple values.
+
+    a = list of values.
+    y = random.choice(a)            -   choice is used to return random value from list. 
+
+
+Index Errors and Working with Nested Lists: 
+
+    Index Out of Range Error - When try to retrieve value out of list values. 
+        Ex: Have 50 values, so to get as a[49]. If tried to get beyond from a[50] then get this error. 
+
+    Nested_list = [["a","b","c"],[1,2,3]]
+    Nested_list[1][2]   -   returns 3
+
     
+
+
+
+
+
+
+
 
 
 
