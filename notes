@@ -114,7 +114,21 @@ Logical Operator:
     not     -   check for not condition.
 
     
+-------------------------------------------------------------------------------------------------------
+DAY 4:  Randomisation and Python List: 
+--------------------------------------------------------------------------------------------------------
+    
+Random Module: 
 
+random.seed(value)  -   seed function is used to save the previous value of random function, so if executed again, same random value will be returned. 
+
+random.randint(start,stop) - includes stop.
+random.randrange(start,stop) - not include stop. 
+
+
+Understanding the Offset and Appending Items to List: 
+
+    
 
 
 
