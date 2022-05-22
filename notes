@@ -151,8 +151,16 @@ Index Errors and Working with Nested Lists:
     Nested_list[1][2]   -   returns 3
 
     
+--------------------------------------------------------------------------------------------------------
+DAY 5: Python Loops 
+--------------------------------------------------------------------------------------------------------
 
+Using for loop with python lists: 
 
+            for item in list_of_items: 
+                Do something on each item. 
+
+            
 
 
 
