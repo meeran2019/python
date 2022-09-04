@@ -47,7 +47,6 @@ Core concepts of boto3 are,
         It is particular aws service console. 
         It is low level service access. 
         Output is interms of DICTIONARY. 
-
         
     META:
         It is useful to enter into client object from resource object. 
@@ -58,8 +57,9 @@ Core concepts of boto3 are,
     WAITERS:
         It is a way to block until certain state is reached. 
 
-
     PAGINATORS:
+        No need to handle paging logic separately. 
+        It helps to handle paging logic and can vary the size and max size of page. 
 
 
 TYPES OF BOTO3 SESSIONS: 
@@ -130,7 +130,7 @@ PAGINATORS:
 
         It is available for CLIENT object only not resource object. 
         It is helpful to query AWS resources.
-        
+        Page size can be changed.
 
 
 ---------------------------------------------------------------------------------------------------------
