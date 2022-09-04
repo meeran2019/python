@@ -51,6 +51,9 @@ Core concepts of boto3 are,
         It returns all the values. 
 
     WAITERS:
+        It is a way to block until certain state is reached. 
+
+
     PAGINATORS:
 
 
@@ -79,5 +82,20 @@ IMPLEMENT BOTO3 USING RESOURCE OBJECT:
 ---------------------------------------------------------------------------------------------------------
 WORKING WITH STS: 
 ---------------------------------------------------------------------------------------------------------
+
+    To refer the boto3-codes/sts.py 
+
+
+---------------------------------------------------------------------------------------------------------
+WAITERS: 
+---------------------------------------------------------------------------------------------------------
+
+    Resource waiter waits for 200s or 40 checks for every 5 sec. If still not finished, throw the error.
+
+    CLient waiter waits for 40 checks for every 15 sec. 
+    
+    In documentation, given waiters is based on Client only.
+
+    Can use both resource and client waiters together.
 
     

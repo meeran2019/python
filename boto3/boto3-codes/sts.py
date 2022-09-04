@@ -13,6 +13,7 @@ print(response['Account'])
 
 # get session token credentials.
 response = sts_client.get_session_token()
+print(response)
 print(response['Credentials']['AccessKeyId'])
 print(response['Credentials']['SecretAccessKey'])
 
