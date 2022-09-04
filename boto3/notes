@@ -127,5 +127,17 @@ COLLECTIONS:
 EXCEPTION HANDLING: 
 ---------------------------------------------------------------------------------------------------------
 
-        It is used with resource object. 
+        try:
+            print('Test block of code for errors')
+        except ModuleNotFound:
+            print("Module not found")
+            print("Handle specific errors")
+        except Exception as e:
+            print(e)
+            print("Handle any other errors")
+        else:
+            print("Execute when there is no error")
+        finally:
+            print("Execute code regardless of try and except blocks")
 
+            
