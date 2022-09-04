@@ -38,7 +38,7 @@ Core concepts of boto3 are,
     RESOURCE: 
         It is particular aws service console. 
         It is higher level object oriented service access and it is available for few services. 
-        Outpur is object. 
+        Output is object. 
 
     CLIENT:
         It is particular aws service console. 
@@ -47,6 +47,8 @@ Core concepts of boto3 are,
 
         
     META:
+        It is useful to enter into client object from resource object. 
+
     COLLECTIONS:
         It returns all the values. 
 
@@ -98,4 +100,14 @@ WAITERS:
 
     Can use both resource and client waiters together.
 
+
+---------------------------------------------------------------------------------------------------------
+META OBJECT: 
+---------------------------------------------------------------------------------------------------------
+
+    It is useful to enter into client object from resource object. 
+
+    In a scenario, where started using resource object but require operation available only in client object, then this is useful.
+
     
+
