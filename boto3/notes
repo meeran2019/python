@@ -44,10 +44,12 @@ Core concepts of boto3 are,
         It is particular aws service console. 
         It is low level service access. 
         Output is interms of DICTIONARY. 
-        
+
         
     META:
     COLLECTIONS:
+        It returns all the values. 
+
     WAITERS:
     PAGINATORS:
 
@@ -62,6 +64,20 @@ TYPES OF BOTO3 SESSIONS:
 IMPLEMENT BOTO3 USING CLIENT OBJECT: 
 ---------------------------------------------------------------------------------------------------------
 
+    It requires to use multiple for loop and dictionary to get the required values. 
 
 
+---------------------------------------------------------------------------------------------------------
+IMPLEMENT BOTO3 USING RESOURCE OBJECT: 
+---------------------------------------------------------------------------------------------------------
 
+    In documentation, it is separated into 3 parts,
+        1. Create
+        2. Existing single resource 
+        3. Existing group of resource. 
+
+---------------------------------------------------------------------------------------------------------
+WORKING WITH STS: 
+---------------------------------------------------------------------------------------------------------
+
+    
