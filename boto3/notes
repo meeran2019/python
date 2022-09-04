@@ -2,3 +2,66 @@
 INTRODUCTION:
 ---------------------------------------------------------------------------------------------------------
 
+    Boto3 is python SDK for AWS.
+    Boto3 allows to create/update/delete AWS services from python scripts.
+    It is built on top of botocore module.
+    https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
+
+---------------------------------------------------------------------------------------------------------
+INSTALLATION:
+---------------------------------------------------------------------------------------------------------
+
+    pip install boto3 
+
+---------------------------------------------------------------------------------------------------------
+AUTHENTICATION TO AWS:
+---------------------------------------------------------------------------------------------------------
+
+    1. Get the access key id & secret access key from security credentials.
+    2. Use aws configure "aws configure --profile profile-name" or "aws configure" for default.
+    3. try whether working by "aws s3 ls"
+
+---------------------------------------------------------------------------------------------------------
+BOTO3 CONCEPTS:
+---------------------------------------------------------------------------------------------------------
+
+Core concepts of boto3 are,
+
+    SESSION: 
+        By default, default session is created and use the default configuration. 
+        It is AWS management console. 
+        Profile which is used to authenticate to AWS.
+
+        my_session = boto3.session.Session()
+        my_session = boto3.session.Session(profile_name="developer")
+
+    RESOURCE: 
+        It is particular aws service console. 
+        It is higher level object oriented service access and it is available for few services. 
+        Outpur is object. 
+
+    CLIENT:
+        It is particular aws service console. 
+        It is low level service access. 
+        Output is interms of DICTIONARY. 
+        
+        
+    META:
+    COLLECTIONS:
+    WAITERS:
+    PAGINATORS:
+
+
+TYPES OF BOTO3 SESSIONS: 
+
+    Custom session      -   create session and can pass profile.
+    Default session     -   use default profile and no need of create session. 
+    
+
+---------------------------------------------------------------------------------------------------------
+IMPLEMENT BOTO3 USING CLIENT OBJECT: 
+---------------------------------------------------------------------------------------------------------
+
+
+
+
