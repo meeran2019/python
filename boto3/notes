@@ -7,11 +7,13 @@ INTRODUCTION:
     It is built on top of botocore module.
     https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
 
+
 ---------------------------------------------------------------------------------------------------------
 INSTALLATION:
 ---------------------------------------------------------------------------------------------------------
 
     pip install boto3 
+
 
 ---------------------------------------------------------------------------------------------------------
 AUTHENTICATION TO AWS:
@@ -20,6 +22,7 @@ AUTHENTICATION TO AWS:
     1. Get the access key id & secret access key from security credentials.
     2. Use aws configure "aws configure --profile profile-name" or "aws configure" for default.
     3. try whether working by "aws s3 ls"
+
 
 ---------------------------------------------------------------------------------------------------------
 BOTO3 CONCEPTS:
@@ -81,6 +84,7 @@ IMPLEMENT BOTO3 USING RESOURCE OBJECT:
         2. Existing single resource 
         3. Existing group of resource. 
 
+
 ---------------------------------------------------------------------------------------------------------
 WORKING WITH STS: 
 ---------------------------------------------------------------------------------------------------------
@@ -109,5 +113,19 @@ META OBJECT:
 
     In a scenario, where started using resource object but require operation available only in client object, then this is useful.
 
+    resource_object.meta.client.client_method()
+
     
+---------------------------------------------------------------------------------------------------------
+COLLECTIONS:
+---------------------------------------------------------------------------------------------------------
+
+        It is used with resource object. 
+
+
+---------------------------------------------------------------------------------------------------------
+EXCEPTION HANDLING: 
+---------------------------------------------------------------------------------------------------------
+
+        It is used with resource object. 
 
